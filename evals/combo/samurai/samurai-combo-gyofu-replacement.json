@@ -1,0 +1,9 @@
+{
+  "id": "samurai-combo-gyofu-replacement",
+  "job": "SAM",
+  "description": "SAM combo replacement fixture: starter button should become Gyofu when starter state is valid.",
+  "input": { "pressed_action": "Hakaze", "combo_state": "starter", "level": 100 },
+  "expected_action": "Gyofu",
+  "stub_actual_action": "Gyofu",
+  "adapter": "fixture-stub"
+}

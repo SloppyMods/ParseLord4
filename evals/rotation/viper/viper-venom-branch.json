@@ -1,0 +1,16 @@
+{
+  "id": "viper-venom-branch",
+  "job": "VPR",
+  "description": "Venom branch should choose Hunter's Coil through the Twinfang adjusted production path.",
+  "input": {
+    "hunters_venom": true,
+    "include_abilities": true,
+    "target_count": 1,
+    "level": 100,
+    "adjusted_actions": {
+      "Twinfang": "Hunter's Coil"
+    }
+  },
+  "expected_action": "Hunter's Coil",
+  "adapter": "viper-production"
+}

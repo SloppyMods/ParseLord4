@@ -1,0 +1,17 @@
+{
+  "id": "viper-serpents-tail",
+  "job": "VPR",
+  "description": "Serpent's Tail proc should choose the available Death Rattle follow-up.",
+  "input": {
+    "serpents_tail_ready": true,
+    "serpent_combo": "death-rattle",
+    "include_abilities": true,
+    "target_count": 1,
+    "level": 100,
+    "adjusted_actions": {
+      "Serpent's Tail": "Death Rattle"
+    }
+  },
+  "expected_action": "Death Rattle",
+  "adapter": "viper-production"
+}

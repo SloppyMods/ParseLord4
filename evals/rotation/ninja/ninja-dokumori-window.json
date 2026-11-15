@@ -1,0 +1,9 @@
+{
+  "id": "ninja-dokumori-window",
+  "job": "NIN",
+  "description": "Dokumori should be used when burst window is open and action is ready. Kassatsu and Trick Attack must be unavailable.",
+  "input": { "dokumori_ready": true, "in_burst": true, "ninki": 50, "target_count": 1, "level": 100, "include_abilities": true, "blocked_actions": ["Trick Attack"] },
+  "expected_action": "Dokumori",
+  "adapter": "ninja-production"
+}
+

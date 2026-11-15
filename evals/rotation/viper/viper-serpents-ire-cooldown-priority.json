@@ -1,0 +1,13 @@
+{
+  "id": "viper-serpents-ire-cooldown-priority",
+  "job": "VPR",
+  "description": "Burst cooldown priority case should weave Serpent's Ire before GCD filler when no Viper weave is active.",
+  "input": {
+    "include_abilities": true,
+    "can_weave": true,
+    "target_count": 1,
+    "level": 100
+  },
+  "expected_action": "Serpent's Ire",
+  "adapter": "viper-production"
+}

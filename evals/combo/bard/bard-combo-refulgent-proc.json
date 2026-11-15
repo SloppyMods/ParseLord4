@@ -1,0 +1,9 @@
+{
+  "id": "bard-combo-refulgent-proc",
+  "job": "BRD",
+  "description": "BRD combo replacement fixture should choose Refulgent Arrow while proc is active.",
+  "input": { "pressed_action": "Heavy Shot", "straight_shot_ready": true, "level": 100 },
+  "expected_action": "Refulgent Arrow",
+  "stub_actual_action": "Refulgent Arrow",
+  "adapter": "fixture-stub"
+}

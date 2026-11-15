@@ -1,0 +1,16 @@
+{
+  "id": "viper-negative-control-wrong-expected",
+  "job": "VPR",
+  "description": "Negative control: full Serpent Offering should not match an intentionally wrong filler expectation.",
+  "input": {
+    "serpent_offering": 100,
+    "ready_to_reawaken": true,
+    "include_abilities": false,
+    "target_count": 1,
+    "level": 100
+  },
+  "expected_action": "Reaving Fangs",
+  "should_not_actions": ["Reaving Fangs"],
+  "negative_control": true,
+  "adapter": "viper-production"
+}

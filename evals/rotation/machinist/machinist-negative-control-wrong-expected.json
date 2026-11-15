@@ -1,0 +1,9 @@
+{
+  "id": "machinist-negative-control-wrong-expected",
+  "job": "MCH",
+  "description": "Negative control: adapter should NOT return Full Metal Field when it is not ready. Intentional wrong expectation tests that eval rejects false matches.",
+  "input": { "full_metal_field_ready": false, "heat": 0, "battery": 0, "queen_active": false, "wildfire_ready": false, "target_count": 1, "level": 100, "include_abilities": false, "overheated": false },
+  "expected_action": "Full Metal Field",
+  "adapter": "machinist-production",
+  "negative_control": true
+}

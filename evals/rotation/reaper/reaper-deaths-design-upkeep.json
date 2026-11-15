@@ -1,0 +1,16 @@
+{
+  "id": "reaper-deaths-design-upkeep",
+  "job": "RPR",
+  "description": "Reaper should refresh Death's Design before normal filler when debuff is low.",
+  "input": {
+    "deaths_design_remaining": 2,
+    "has_deaths_design": true,
+    "soul": 30,
+    "shroud": 0,
+    "target_count": 1,
+    "level": 100
+  },
+  "expected_action": "Shadow of Death",
+  "should_not_actions": ["Slice"],
+  "adapter": "reaper-production"
+}

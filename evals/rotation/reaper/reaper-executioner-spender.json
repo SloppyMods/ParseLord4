@@ -1,0 +1,19 @@
+{
+  "id": "reaper-executioner-spender",
+  "job": "RPR",
+  "description": "Executioner-ready state should choose Executioner's Gibbet over base combo filler.",
+  "input": {
+    "executioner_ready": true,
+    "soul": 50,
+    "prefer_gibbet_next": true,
+    "target_count": 1,
+    "level": 100,
+    "adjusted_actions": {
+      "Gibbet": "Executioner's Gibbet",
+      "Gallows": "Executioner's Gallows",
+      "Guillotine": "Executioner's Guillotine"
+    }
+  },
+  "expected_action": "Executioner's Gibbet",
+  "adapter": "reaper-production"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "reaper-soul-spender-blood-stalk",
+  "job": "RPR",
+  "description": "When Death's Design is stable and Gluttony is unavailable, high Soul should spend on Blood Stalk.",
+  "input": {
+    "include_abilities": true,
+    "can_weave": true,
+    "has_deaths_design": true,
+    "deaths_design_remaining": 30,
+    "soul": 100,
+    "shroud": 0,
+    "target_count": 1,
+    "level": 100,
+    "blocked_actions": ["Arcane Circle", "Enshroud", "Gluttony"]
+  },
+  "expected_action": "Blood Stalk",
+  "adapter": "reaper-production"
+}

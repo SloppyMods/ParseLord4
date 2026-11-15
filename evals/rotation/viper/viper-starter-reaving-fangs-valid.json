@@ -1,0 +1,13 @@
+{
+  "id": "viper-starter-reaving-fangs-valid",
+  "job": "VPR",
+  "description": "Viper starter case should use Reaving Fangs when no higher-priority spender, weave, or combo state is active.",
+  "input": {
+    "include_abilities": false,
+    "target_count": 1,
+    "level": 100,
+    "blocked_actions": ["Vicewinder", "Vicepit"]
+  },
+  "expected_action": "Reaving Fangs",
+  "adapter": "viper-production"
+}

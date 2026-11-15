@@ -1,0 +1,29 @@
+# Build output
+**/bin/
+**/obj/
+packages/
+
+# IDE and user-local files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and local diagnostics
+*.log
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Graphify working/cache files. Final reports remain trackable.
+.graphify_*
+graphify-out/cache/
+graphify-out/.graphify_*
+graphify-out/cost.json
+graphify-out/manifest.json

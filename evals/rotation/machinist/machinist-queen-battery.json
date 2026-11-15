@@ -1,0 +1,9 @@
+{
+  "id": "machinist-queen-battery",
+  "job": "MCH",
+  "description": "Automaton Queen should be summoned when battery threshold is met and Full Metal Field is not ready.",
+  "input": { "battery": 100, "queen_active": false, "target_count": 1, "level": 100, "include_abilities": false, "full_metal_field_ready": false },
+  "expected_action": "Automaton Queen",
+  "adapter": "machinist-production"
+}
+

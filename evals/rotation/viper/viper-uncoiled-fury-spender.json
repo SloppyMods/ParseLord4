@@ -1,0 +1,16 @@
+{
+  "id": "viper-uncoiled-fury-spender",
+  "job": "VPR",
+  "description": "Rattling Coil spender case should choose Uncoiled Fury when coils are capped and higher-priority starters are unavailable.",
+  "input": {
+    "rattling_coil_stacks": 3,
+    "hunters_instinct": true,
+    "swiftscaled": true,
+    "include_abilities": false,
+    "target_count": 1,
+    "level": 100,
+    "blocked_actions": ["Vicewinder", "Vicepit"]
+  },
+  "expected_action": "Uncoiled Fury",
+  "adapter": "viper-production"
+}

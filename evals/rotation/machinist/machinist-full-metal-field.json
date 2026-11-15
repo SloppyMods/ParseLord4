@@ -1,0 +1,9 @@
+{
+  "id": "machinist-full-metal-field",
+  "job": "MCH",
+  "description": "Full Metal Field should be chosen when available.",
+  "input": { "full_metal_field_ready": true, "heat": 30, "battery": 60, "target_count": 1, "level": 100, "include_abilities": false },
+  "expected_action": "Full Metal Field",
+  "adapter": "machinist-production"
+}
+

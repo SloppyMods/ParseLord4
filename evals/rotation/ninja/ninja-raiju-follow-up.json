@@ -1,0 +1,9 @@
+{
+  "id": "ninja-raiju-follow-up",
+  "job": "NIN",
+  "description": "Raiju Ready should choose Forked Raiju follow-up. Abilities must be unavailable to prevent them from overtaking.",
+  "input": { "raiju_ready": true, "ninki": 40, "target_count": 1, "level": 100, "include_abilities": false, "mudra_sequence": [] },
+  "expected_action": "Forked Raiju",
+  "adapter": "ninja-production"
+}
+

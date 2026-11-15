@@ -1,0 +1,9 @@
+{
+  "id": "ninja-mudra-raiton",
+  "job": "NIN",
+  "description": "Ninja mudra sequence should resolve to Raiton for single-target. Abilities and raiju must be unavailable.",
+  "input": { "mudra_sequence": ["Ten", "Chi"], "ninki": 20, "target_count": 1, "level": 100, "include_abilities": false, "raiju_ready": false, "has_kassatsu": false },
+  "expected_action": "Raiton",
+  "adapter": "ninja-production"
+}
+

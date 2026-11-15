@@ -1,0 +1,19 @@
+{
+  "id": "reaper-enshroud-void-reaping",
+  "job": "RPR",
+  "description": "Enshroud chain should spend Lemure GCD on Void Reaping when available.",
+  "input": {
+    "enshrouded": true,
+    "lemure_shroud": 5,
+    "prefer_gibbet_next": true,
+    "target_count": 1,
+    "level": 100,
+    "adjusted_actions": {
+      "Gibbet": "Void Reaping",
+      "Gallows": "Cross Reaping",
+      "Guillotine": "Grim Reaping"
+    }
+  },
+  "expected_action": "Void Reaping",
+  "adapter": "reaper-production"
+}

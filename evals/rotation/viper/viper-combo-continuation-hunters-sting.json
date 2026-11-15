@@ -1,0 +1,17 @@
+{
+  "id": "viper-combo-continuation-hunters-sting",
+  "job": "VPR",
+  "description": "Viper combo continuation should use the adjusted Hunter's Sting action from Reaving Fangs.",
+  "input": {
+    "combo_step": "reaving-fangs",
+    "include_abilities": false,
+    "target_count": 1,
+    "level": 100,
+    "blocked_actions": ["Vicewinder", "Vicepit"],
+    "adjusted_actions": {
+      "Reaving Fangs": "Hunter's Sting"
+    }
+  },
+  "expected_action": "Hunter's Sting",
+  "adapter": "viper-production"
+}

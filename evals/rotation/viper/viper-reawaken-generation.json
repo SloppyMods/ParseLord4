@@ -1,0 +1,15 @@
+{
+  "id": "viper-reawaken-generation",
+  "job": "VPR",
+  "description": "Viper should enter Reawaken when Serpent Offering is full instead of falling through to filler.",
+  "input": {
+    "serpent_offering": 100,
+    "ready_to_reawaken": true,
+    "include_abilities": false,
+    "target_count": 1,
+    "level": 100
+  },
+  "expected_action": "Reawaken",
+  "should_not_actions": ["Reaving Fangs", "Uncoiled Fury"],
+  "adapter": "viper-production"
+}

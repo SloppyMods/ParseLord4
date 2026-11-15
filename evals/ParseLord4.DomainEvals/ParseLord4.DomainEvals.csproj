@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\stages\06-polish\output\ParseLord4\Rotation\Jobs\Melee\SamuraiDecisionModel.cs"
+             Link="SamuraiDecisionModel.cs" />
+    <Compile Include="..\..\stages\06-polish\output\ParseLord4\Rotation\Jobs\Melee\ViperDecisionModel.cs"
+             Link="ViperDecisionModel.cs" />
+    <Compile Include="..\..\stages\06-polish\output\ParseLord4\Rotation\Jobs\Melee\ReaperDecisionModel.cs"
+             Link="ReaperDecisionModel.cs" />
+    <Compile Include="..\..\stages\06-polish\output\ParseLord4\Rotation\Jobs\Melee\NinjaDecisionModel.cs"
+             Link="NinjaDecisionModel.cs" />
+    <Compile Include="..\..\stages\06-polish\output\ParseLord4\Rotation\Jobs\Ranged\MachinistDecisionModel.cs"
+             Link="MachinistDecisionModel.cs" />
+  </ItemGroup>
+</Project>

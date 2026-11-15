@@ -1,0 +1,18 @@
+{
+  "id": "samurai-negative-control-wrong-expected",
+  "job": "SAM",
+  "description": "Negative control: intentionally wrong expected action must fail the production adapter comparison.",
+  "input": {
+    "sen": 3,
+    "kenki": 35,
+    "has_tendo": true,
+    "include_abilities": false,
+    "target_count": 1,
+    "combo_step": "none",
+    "level": 100
+  },
+  "expected_action": "Gyofu",
+  "should_not_actions": ["Gyofu"],
+  "negative_control": true,
+  "adapter": "samurai-production"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "samurai-kaeshi-tendo-follow-up",
+  "job": "SAM",
+  "description": "Kaeshi/Tendo follow-up case should take Tendo Kaeshi Setsugekka while the follow-up is available.",
+  "input": {
+    "sen": 0,
+    "kenki": 40,
+    "has_tendo": false,
+    "has_tendo_kaeshi_ready": true,
+    "include_abilities": false,
+    "target_count": 1,
+    "combo_step": "none",
+    "level": 100
+  },
+  "expected_action": "Tendo Kaeshi Setsugekka",
+  "adapter": "samurai-production"
+}

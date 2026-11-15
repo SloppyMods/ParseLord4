@@ -1,0 +1,9 @@
+{
+  "id": "machinist-wildfire-window",
+  "job": "MCH",
+  "description": "Machinist should use Wildfire when burst setup is ready and higher-priority actions are unavailable.",
+  "input": { "wildfire_ready": true, "heat": 50, "battery": 50, "queen_active": false, "full_metal_field_ready": false, "target_count": 1, "level": 100, "include_abilities": true },
+  "expected_action": "Wildfire",
+  "adapter": "machinist-production"
+}
+

@@ -1,0 +1,16 @@
+{
+  "id": "reaper-negative-control-wrong-expected",
+  "job": "RPR",
+  "description": "Negative control: Death's Design upkeep must reject an intentionally wrong Slice expectation.",
+  "input": {
+    "deaths_design_remaining": 2,
+    "has_deaths_design": true,
+    "soul": 30,
+    "shroud": 0,
+    "target_count": 1,
+    "level": 100
+  },
+  "expected_action": "Slice",
+  "negative_control": true,
+  "adapter": "reaper-production"
+}

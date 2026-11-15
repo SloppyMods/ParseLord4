@@ -1,0 +1,9 @@
+{
+  "id": "warrior-combo-storms-path",
+  "job": "WAR",
+  "description": "WAR combo replacement fixture should advance to Storm's Path in the path branch.",
+  "input": { "pressed_action": "Heavy Swing", "combo_state": "maim-complete", "branch": "path", "level": 100 },
+  "expected_action": "Storm's Path",
+  "stub_actual_action": "Storm's Path",
+  "adapter": "fixture-stub"
+}

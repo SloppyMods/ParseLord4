@@ -1,0 +1,17 @@
+{
+  "id": "samurai-iaijutsu-3-sen-setsugekka",
+  "job": "SAM",
+  "description": "3 Sen without Tendo should prefer normal Iaijutsu Setsugekka decision, not filler Gyofu.",
+  "input": {
+    "sen": 3,
+    "kenki": 25,
+    "has_tendo": false,
+    "include_abilities": false,
+    "target_count": 1,
+    "combo_step": "none",
+    "level": 90
+  },
+  "expected_action": "Midare Setsugekka",
+  "should_not_actions": ["Gyofu"],
+  "adapter": "samurai-production"
+}

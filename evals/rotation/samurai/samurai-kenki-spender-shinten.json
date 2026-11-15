@@ -1,0 +1,21 @@
+{
+  "id": "samurai-kenki-spender-shinten",
+  "job": "SAM",
+  "description": "High Kenki single-target spender case should pick Shinten when no Iaijutsu/Tendo action has priority.",
+  "input": {
+    "sen": 1,
+    "kenki": 80,
+    "has_tendo": false,
+    "has_fugetsu": true,
+    "has_fuka": true,
+    "fugetsu_remaining": 30,
+    "fuka_remaining": 30,
+    "include_abilities": true,
+    "blocked_actions": ["Meikyo Shisui", "Ikishoten", "Zanshin", "Shoha", "Senei", "Guren"],
+    "target_count": 1,
+    "combo_step": "none",
+    "level": 100
+  },
+  "expected_action": "Shinten",
+  "adapter": "samurai-production"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "samurai-tendo-3-sen-no-gyofu-regression",
+  "job": "SAM",
+  "description": "Historical bug case: 3 Sen with Tendo ready should not overuse Gyofu when Tendo decision is correct.",
+  "input": {
+    "sen": 3,
+    "kenki": 35,
+    "has_tendo": true,
+    "include_abilities": false,
+    "target_count": 1,
+    "combo_step": "none",
+    "level": 100
+  },
+  "expected_action": "Tendo Setsugekka",
+  "should_not_actions": ["Gyofu"],
+  "adapter": "samurai-production"
+}
